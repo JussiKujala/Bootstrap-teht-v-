@@ -1,0 +1,51 @@
+
+span{
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+div[class='col py-3']{
+    background-image: url(../pictures/backgroundimg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-size: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+  }
+
+#images{
+    width:  900px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#button{
+    font-size: 2em;
+}
